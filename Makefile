@@ -18,7 +18,7 @@ build:
 	@exit 0;
 
 run:
-	docker run --name="web" -v ~/sites:/sites -v -d -p 80:80 -p 3306:3306 kdvr/lamp-5.4-docker
+	docker run --name="web" -v ~/sites:/sites -d -p 80:80 -p 3306:3306 kdvr/lamp-5.4-docker
 	@exit 0;
 
 shell:
