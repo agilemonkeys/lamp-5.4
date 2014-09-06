@@ -59,6 +59,6 @@ Where ~/sites is your local folder providing a strucure as explained in the prer
 
 Upon build all additional files are copied/installed. Feel free to alter these. When you have great ideas make sure you share... \m/
 
-# The M is a lie #
+# Note on mysql #
 
-Right, I am still constructing this docker image, so mysql is still missing. This won't be for long though.... 
+This is installed, but further configuration still needs to be done. I want to make sure you can mount a local folder for your mysql data.

@@ -27,7 +27,8 @@ RUN apt-get install -yq \
         php5-mcrypt \ 
         php5-mysql \ 
         php5-xdebug \
-        libapache2-mod-php5 
+        libapache2-mod-php5 \
+        mysql-server
 
 # Expose sites folder for mounting
 VOLUME ["/sites"]
